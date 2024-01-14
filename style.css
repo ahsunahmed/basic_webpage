@@ -1,0 +1,412 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	line-height: 18px;
+	font-size: 14px;
+	color: #333;
+	overflow: hidden;
+}
+
+html{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.up_area {
+  width: 100%;
+  background-color: yellowgreen;
+  padding: 20px;
+  opacity: 0.4;
+}
+
+body{
+	background-color: floralwhite;
+}
+
+.navbar_area {
+  background-color: floralwhite;
+  
+  padding: 24px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0px 20px;
+  font-size: 24px;
+  line-height: 24px;
+}
+nav ul li a {
+  font-size: 18px;
+  font-family: verdana;
+}
+.active{
+	font-weight: bold;
+}
+.banner_area {
+  background-image: url("img/banner.png");
+  padding: 150px 0;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+}
+.heading {
+  font-size: 50px;
+  font-family: verdana;
+  padding: 0px 0px 40px;
+  color: #fff;
+}
+.banner-text {
+  max-width: 431px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  word-spacing: 2px;
+}
+.btn {
+  font-size: 20px;
+  background-color: yellow;
+  padding: 10px 25px;
+  border-radius: 8px;
+  box-shadow: 1px 4px 5px 0px #333;
+  color: #333;
+  display: inline-block;
+}
+
+.mission-section{
+	background-color: floralwhite;
+}
+
+.section-title {
+  color: #333;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px 0;
+}
+.content-title {
+  font-weight: bold;
+  font-size: 24px;
+  position: relative;
+  padding: 15px 0;
+  line-height: 28px;
+  font-family: sans serif;
+}
+.content-title::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 100px;
+  background-color: orange;
+  height: 2px;
+  width: 200px;
+  transform: translate(-50%,-50%);
+}
+.content-area p {
+  max-width: 400px;
+  display: ;
+  color: grey;
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+.first-mission {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px 0;
+}
+.img-area img {
+  max-width: 450px;
+  width: 100%;
+}
+
+.content-area {
+  max-width: 600px;
+}
+.content-btn {
+  background-color: yellow;
+  padding: 10px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px #ddd;
+  margin: 10px 0;
+}
+.second-mission {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 20px 0;
+  flex-flow: row-reverse;
+}
+.second-mission .content-area {
+  text-align: right;
+}
+.second-mission .content-area .content-title::after {
+  position: absolute;
+  width: 225px;
+  height: 2px;
+  background-color: orange;
+  content: "";
+  transform: translate(-50%,-50%);
+  bottom: 2px;
+  left: 72%;
+}
+
+.third-mission{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+
+
+.section-title h2 {
+  font-size: 30px;
+  font-family: ;
+}
+.work-process {
+  padding: 50px 0;
+  margin: 0 auto;
+  background-color: floralwhite;
+}
+
+
+
+.review-title {
+  font-size: 24px;
+}
+.navigation {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-content: center;
+}
+.review-header {
+  position: relative;
+}
+
+.navigation .btn-2{
+	background-color: orange;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+}
+.navigation .btn-2 img{
+  width: 10px;
+  max-width: 100%;
+
+}
+
+
+
+.btn-1 {
+  background-color: #ddd;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1 img {
+  width: 10px;
+  max-width: 100%;
+}
+
+.review-area{
+	background-color: #fff;
+
+}
+.review-content {
+  background-color: floralwhite;
+  width: 400px;
+  padding: 25px 40px;
+  position: relative;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+.quotation {
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  padding: 20px;
+  opacity: 0.2;
+  width: 35px;
+}
+.face {
+  width: 60px;
+  max-width: 100%;
+}
+.review-content h5 {
+  font-size: 18px;
+  line-height: ;
+  padding: 10px 0px 25px;
+}
+.review-content .content {
+  font-size: 16px;
+  color: #333;
+  line-height: 22px;
+}
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.review-area {
+  padding: 70px 0;
+}
+
+.work-process{
+	padding-bottom: 100px;
+}
+
+.section-title{
+	padding-bottom: 100px;
+}
+
+.section-title h2{
+	position: relative;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 2.5px;
+  background-color: gold;
+  bottom: -15px;
+  left: 50%;
+  transform: translate(-50%,-2%);
+}
+.work-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-content {
+  text-align: center;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.single-content .img-container{
+	padding-bottom: 50px;
+
+}
+.single-content .img-container img {
+  width: 120px;
+}
+.single-content .title {
+  font-size: 20px;
+  color: #333;
+  font-family: ;
+}
+.single-content p {
+  width: 100%;
+  font-size: 14px;
+  font-family: verdana;
+  line-height: 20px;
+}
+
+
+.footer {
+  background-color: gold;
+  height: 15px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.contact-area{
+	padding-bottom: 100px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  padding-left: 20px;
+  border-radius: 8px;
+}
+.map img {
+  max-width: 100%;
+  width: 100%;
+  border-radius: 0px 8px 8px 0px;
+  max-width: 650px;
+}
+.form h3 {
+  color: #fff;
+  font-size: 35px;
+  padding-bottom: 20px;
+  word-spacing: 2px;
+  font-weight: 400;
+}
+.form input {
+  background-color: #4e4e4c;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 400px;
+  border-radius: 4px;
+  color: #fff;
+}
+.form label {
+  display: block;
+  padding: 10px 0 4px;
+  color: #D8D9DA;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.form {
+  padding: 80px 10px 0px 20px;
+}
+#message {
+  height: 80px;
+}
+.form a {
+  display: inline-block;
+  color: #333;
+  background-color: yellow;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+.heading-area h2 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.heading-area p {
+  max-width: 430px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px 0px 30px;
+  font-size: 18px;
+}
